@@ -1,5 +1,5 @@
 SELECT 
-    customer_id,
+    *,
     MIN(order_amount) AS lowest_order,
     MAX(order_amount) AS highest_order
 FROM orders
